@@ -1,0 +1,27 @@
+{
+  "entities": [
+    { "id": "alan_turing", "kind": "person", "names": { "zh": "艾伦·图灵", "en": "Alan Turing" }, "notes": "简称：图灵 / Turing。1912-06-23 – 1954-06-07（C04、C14）" },
+    { "id": "paper_1936", "kind": "work", "names": { "zh": "《论可计算数及其在判定问题上的应用》", "en": "On Computable Numbers, with an Application to the Entscheidungsproblem" }, "notes": "Proc. London Math. Soc. s2-42 (1936–37)" },
+    { "id": "paper_1950", "kind": "work", "names": { "zh": "《计算机器与智能》", "en": "Computing Machinery and Intelligence" }, "notes": "Mind 59(236): 433–460 (1950)" },
+    { "id": "journal_mind", "kind": "work", "names": { "zh": "《心灵》（Mind）", "en": "Mind" } },
+    { "id": "plms", "kind": "work", "names": { "zh": "《伦敦数学会会刊》", "en": "Proceedings of the London Mathematical Society" } },
+    { "id": "dartmouth_proposal", "kind": "work", "names": { "zh": "达特茅斯人工智能夏季研究项目提案", "en": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence" }, "notes": "1955-08-31（C15）" },
+    { "id": "hodges_enigma", "kind": "work", "names": { "zh": "《艾伦·图灵传：如谜的解谜者》", "en": "Alan Turing: The Enigma" }, "notes": "Andrew Hodges 著；中文书名待核对" },
+    { "id": "ultra_secret_book", "kind": "work", "names": { "zh": "《超级机密》", "en": "The Ultra Secret" }, "notes": "F. W. Winterbotham, 1974" },
+    { "id": "bletchley_park", "kind": "place", "names": { "zh": "布莱切利园", "en": "Bletchley Park" } },
+    { "id": "wilmslow", "kind": "place", "names": { "zh": "威姆斯洛", "en": "Wilmslow" } },
+    { "id": "gccs", "kind": "organization", "names": { "zh": "英国政府密码学校", "en": "Government Code and Cypher School" } },
+    { "id": "bletchley_park_trust", "kind": "organization", "names": { "zh": "布莱切利园信托基金会", "en": "Bletchley Park Trust" } },
+    { "id": "enigma", "kind": "object", "names": { "zh": "恩尼格玛密码机", "en": "Enigma" } },
+    { "id": "bombe", "kind": "object", "names": { "zh": "Bombe（炸弹机）", "en": "Bombe" }, "notes": "基于波兰的 bomba（C07）" },
+    { "id": "bomba", "kind": "object", "names": { "zh": "波兰 bomba", "en": "Polish bomba" } },
+    { "id": "ultra", "kind": "event", "names": { "zh": "Ultra 情报", "en": "Ultra" } },
+    { "id": "gordon_welchman", "kind": "person", "names": { "zh": "戈登·韦尔奇曼", "en": "Gordon Welchman" } },
+    { "id": "andrew_hodges", "kind": "person", "names": { "zh": "安德鲁·霍奇斯", "en": "Andrew Hodges" } },
+    { "id": "frederick_winterbotham", "kind": "person", "names": { "zh": "弗雷德里克·温特博瑟姆", "en": "F. W. Winterbotham" } },
+    { "id": "john_mccarthy", "kind": "person", "names": { "zh": "约翰·麦卡锡", "en": "John McCarthy" } },
+    { "id": "marvin_minsky", "kind": "person", "names": { "zh": "马文·明斯基", "en": "Marvin Minsky" } },
+    { "id": "nathaniel_rochester", "kind": "person", "names": { "zh": "纳撒尼尔·罗切斯特", "en": "Nathaniel Rochester" } },
+    { "id": "claude_shannon", "kind": "person", "names": { "zh": "克劳德·香农", "en": "Claude Shannon" } }
+  ]
+}

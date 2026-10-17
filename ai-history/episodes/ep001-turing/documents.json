@@ -1,0 +1,7 @@
+{
+  "documents": {
+    "can_machines_think": { "text": "Can machines think?", "claims": ["C09"], "entity": "paper_1950" },
+    "turing1950_opening": { "text": "I propose to consider the question, 'Can machines think?'", "claims": ["C09"], "entity": "paper_1950" },
+    "turing1950_closing": { "text": "We can only see a short distance ahead, but we can see plenty there that needs to be done.", "claims": ["C12"], "entity": "paper_1950" }
+  }
+}

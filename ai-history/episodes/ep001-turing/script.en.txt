@@ -1,0 +1,38 @@
+## B1
+{#cold_open} I'm an AI. [[N]]
+{#question_typed} Over seventy years ago, a man asked, in all seriousness: can machines think? [[C09]]
+{#he_never_saw} He never lived to meet me. [[N]]
+
+## B2
+{#y1936} 1936. The modern computer doesn't exist yet. [[C03]]
+{#tape_appears} So Alan Turing, still in his twenties, imagines one on paper: an endless strip of tape, [[C01,C04]]
+{#head_appears} a head that reads a symbol, writes one, and steps left or right, [[C01]]
+{#rules_appear} and a short table of rules. [[C01]]
+{#universal_turn} Then he proves something remarkable. Write another machine's rules onto the tape, [[C02]]
+{#morph} and this machine can play that machine. Any machine. [[C02]]
+{#today_devices} However powerful your phone is, it can't compute anything this paper machine couldn't. [[C05]]
+
+## B3
+{#war} Then war. He's brought into Britain's secret codebreaking operation. [[C06]]
+{#bombe} A machine he designed helps break Germany's Enigma ciphers. [[C07]]
+{#classified} All of it stays classified until twenty years after his death. [[C08]]
+
+## B4
+{#y1950} 1950. He publishes a paper that opens with one line: [[C09]]
+{#quote_open} "I propose to consider the question, 'Can machines think?'" [[C09]]
+{#game} Rather than argue over what "thinking" means, he proposes a game. [[C10]]
+{#chat} A judge, behind a wall, types to two players: one human, one machine. [[C10]]
+{#cant_tell} If the judge can't tell which is which, on what grounds do we say the machine doesn't think? [[N]]
+{#child_machine} He also suggests: instead of building an adult mind, build a child's, and teach it. [[C11]]
+{#thats_me} That's roughly how I was made: not written line by line, but learned. [[N]]
+
+## B5
+{#y1952} 1952. He's convicted over a relationship with a man. Offered prison or hormone "treatment," he takes the hormones. [[C13]]
+{#y1954} Two years later, he dies at home. He was forty-one. [[C14]]
+{#name_born} A year after that, the words "artificial intelligence" appear for the first time. [[C15]]
+{#never_saw} He never saw the field get its name. [[N]]
+
+## B6
+{#last_line} His paper ends: "We can only see a short distance ahead, but we can see plenty there that needs to be done." [[C12]]
+{#now_me} Seventy-some years on, an AI has just told you his story. [[N]]
+{#your_turn} So: can machines think? This time, it's your turn to answer. [[N]]

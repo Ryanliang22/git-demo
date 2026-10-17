@@ -1,0 +1,75 @@
+{
+  "version": "0.1.0",
+  "canvas": { "width": 1080, "height": 1920, "fps": 30 },
+  "colors": {
+    "bg": "#0F1115",
+    "text": "#ECE8E1",
+    "textMuted": "#8A8F98",
+    "amber": "#F2A93B",
+    "blue": "#5AA9E6",
+    "red": "#D9614C"
+  },
+  "colorRules": {
+    "red": ["S05", "S06"]
+  },
+  "fonts": {
+    "sans_zh": { "family": "Noto Sans SC", "package": "@fontsource/noto-sans-sc", "license": "OFL-1.1", "licenseFile": "@fontsource/noto-sans-sc/LICENSE", "weights": [400, 600] },
+    "sans_en": { "family": "Inter", "package": "@fontsource/inter", "license": "OFL-1.1", "licenseFile": "@fontsource/inter/LICENSE", "weights": [400, 600] },
+    "quote": { "family": "Courier Prime", "package": "@fontsource/courier-prime", "license": "OFL-1.1", "licenseFile": "@fontsource/courier-prime/LICENSE", "weights": [400, 700] },
+    "mono": { "family": "JetBrains Mono", "package": "@fontsource/jetbrains-mono", "license": "OFL-1.1", "licenseFile": "@fontsource/jetbrains-mono/LICENSE", "weights": [400, 700] }
+  },
+  "motion": {
+    "easing": "cubicInOut",
+    "appearFrames": 12,
+    "moveFrames": 18,
+    "minHoldFrames": 30,
+    "typeFramesPerChar": 2,
+    "cursorBlinkFrames": 16,
+    "holdDrift": 0.05
+  },
+  "safeArea": { "top": 150, "bottom": 420, "left": 60, "right": 150 },
+  "languages": {
+    "zh": {
+      "font": "sans_zh",
+      "caption": { "maxLineChars": 16, "maxLines": 2, "fontSize": 52, "minFontSize": 48, "dropLineEndPunct": "，。、；：" },
+      "unit": "char"
+    },
+    "en": {
+      "font": "sans_en",
+      "caption": { "maxLineChars": 32, "maxLines": 2, "fontSize": 48, "minFontSize": 40, "dropLineEndPunct": "" },
+      "unit": "word"
+    }
+  },
+  "caption": {
+    "weight": 600,
+    "lineHeight": 1.3,
+    "paddingX": 28,
+    "paddingY": 14,
+    "radius": 18,
+    "background": "rgba(15, 17, 21, 0.78)"
+  },
+  "aiLabel": { "fontSize": 30, "showUntilSec": 3, "opacity": 0.9 },
+  "draftMark": { "fontSize": 26, "opacity": 0.55 },
+  "voice": {
+    "narrator": {
+      "zh": { "engine": "mock", "voice": "mock-narrator", "params": { "unitsPerSec": 4.3 }, "license": "n/a (mock engine, silent output)" },
+      "en": { "engine": "mock", "voice": "mock-narrator", "params": { "unitsPerSec": 2.6 }, "license": "n/a (mock engine, silent output)" }
+    }
+  },
+  "timing": { "segmentGapMs": 150, "beatGapMs": 400 },
+  "audio": {
+    "sampleRate": 48000,
+    "loudness": { "integratedLufs": -14, "toleranceLu": 1, "truePeakDbtp": -1 }
+  },
+  "turing": {
+    "cellWidthRatio": 0.1,
+    "tapeCenterRatio": 0.5,
+    "stateColors": ["blue", "amber", "text"],
+    "stepFrames": 18
+  },
+  "qc": {
+    "blackdetect": { "pixTh": 0.05, "minSec": 0.1 },
+    "freezedetect": { "noiseDb": -70, "minSec": 2 },
+    "avSyncToleranceFrames": 1
+  }
+}

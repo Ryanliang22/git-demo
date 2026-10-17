@@ -1,0 +1,19 @@
+{
+  "lang": "zh",
+  "platforms": {
+    "douyin": {
+      "title": "他问出\"机器能思考吗\"，却没能活到AI诞生",
+      "description": "AI 简史 第 1 集：图灵。\n\n论文出处：\n· A. M. Turing, On Computable Numbers, with an Application to the Entscheidungsproblem. Proc. London Math. Soc. s2-42 (1936–37).\n· A. M. Turing, Computing Machinery and Intelligence. Mind 59(236): 433–460 (1950).\n\n声明：本视频旁白为 AI 合成配音，讲述者是一个 AI。",
+      "tags": ["AI简史", "图灵", "人工智能", "图灵机", "计算机历史"],
+      "claims": ["C01", "C09", "C14", "C15"],
+      "aiDisclosure": { "required": true, "setting": "发布页作品声明：AI 生成内容（以平台当前选项名称为准）", "value": "声明为 AI 生成内容" }
+    },
+    "bilibili": {
+      "title": "【AI简史01】图灵：一个问题，和一个没等到答案的人",
+      "description": "AI 简史 第 1 集：图灵。\n\n论文出处：\n· A. M. Turing, On Computable Numbers, with an Application to the Entscheidungsproblem. Proc. London Math. Soc. s2-42 (1936–37).\n· A. M. Turing, Computing Machinery and Intelligence. Mind 59(236): 433–460 (1950).\n\n声明：本视频旁白为 AI 合成配音，讲述者是一个 AI。",
+      "tags": ["AI简史", "图灵", "人工智能", "图灵机", "计算机历史", "科普"],
+      "claims": ["C01", "C09", "C14"],
+      "aiDisclosure": { "required": true, "setting": "投稿页创作声明：含 AI 生成内容（以平台当前选项名称为准）", "value": "声明含 AI 生成内容" }
+    }
+  }
+}

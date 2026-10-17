@@ -1,0 +1,15 @@
+{
+  "episode": "ep001",
+  "lang": "zh",
+  "items": [
+    { "component": "grammar/Cursor", "props": { "color": "amber" }, "events": { "show": 0 }, "frame": 20 },
+    { "component": "grammar/Typewriter", "props": { "font": "quote", "slot": "line" }, "texts": { "line": "doc:can_machines_think" }, "events": { "showCursor": 0, "type": 10 }, "frame": 90 },
+    { "component": "grammar/YearStamp", "props": { "year": 1936 }, "events": { "show": 0 }, "frame": 40 },
+    { "component": "grammar/Caption", "props": {}, "captionCue": "question_typed", "frame": 0 },
+    { "component": "grammar/AILabel", "props": {}, "frame": 0 },
+    { "component": "signature/TuringMachine", "name": "TuringMachine-build", "props": { "mode": "build", "program": "binary_increment", "input": "1011" }, "events": { "showTape": 0, "showHead": 20, "showRules": 40 }, "frame": 100 },
+    { "component": "signature/TuringMachine", "name": "TuringMachine-universal", "props": { "mode": "universal", "program": "binary_increment", "input": "1011", "guest": "bit_invert", "morphs": [{ "program": "bit_invert", "outline": "gear", "input": "1011" }, { "program": "unary_add", "outline": "keypad", "input": "11011" }, { "program": "binary_increment", "outline": "dial", "input": "0111" }] }, "events": { "encodeGuest": 0, "morph": 130 }, "duration": 250, "frame": 150 },
+    { "component": "signature/TuringMachine", "name": "TuringMachine-outro", "props": { "mode": "outro", "program": "binary_increment", "input": "0111" }, "events": { "collapse": 0 }, "frame": 90 },
+    { "component": "signature/TuringMachine", "name": "TuringMachine-stop", "props": { "mode": "stop", "program": "binary_counter", "input": "1011" }, "events": { "halt": 90 }, "duration": 240, "frame": 110 }
+  ]
+}

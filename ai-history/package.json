@@ -1,0 +1,23 @@
+{
+  "name": "ai-history",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "ep": "tsx packages/pipeline/src/cli.ts",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "studio": "remotion studio remotion/index.ts"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.530",
+    "@types/node": "22.20.4",
+    "@types/react": "19.2.18",
+    "tsx": "4.23.13",
+    "typescript": "5.9.3",
+    "vitest": "4.1.11"
+  }
+}

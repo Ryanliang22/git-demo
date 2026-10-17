@@ -1,0 +1,151 @@
+{
+  "claims": [
+    {
+      "id": "C01",
+      "text": "Turing's 1936 paper 'On Computable Numbers, with an Application to the Entscheidungsproblem' introduced an abstract machine consisting of an infinite tape, a read/write head and a finite table of rules.",
+      "textZh": "1936 年的论文《On Computable Numbers…》提出了一种抽象机器，由无限长的纸带、读写头和有限规则表组成",
+      "sources": [{ "title": "A. M. Turing, On Computable Numbers, with an Application to the Entscheidungsproblem, Proc. London Math. Soc. s2-42 (1936–37)", "url": "", "excerpt": "" }],
+      "risk": "low",
+      "status": "pending",
+      "notes": ""
+    },
+    {
+      "id": "C02",
+      "text": "The same paper proves that a 'universal machine' exists: given the description of another machine, it can simulate that machine.",
+      "textZh": "同一篇论文证明存在\"通用机\"：读入另一台机器的描述，就能模拟那台机器",
+      "sources": [{ "title": "A. M. Turing, On Computable Numbers, with an Application to the Entscheidungsproblem, Proc. London Math. Soc. s2-42 (1936–37)", "url": "", "excerpt": "" }],
+      "risk": "low",
+      "status": "pending",
+      "notes": ""
+    },
+    {
+      "id": "C03",
+      "text": "In 1936 there was not yet an electronic general-purpose computer in the modern sense.",
+      "textZh": "1936 年还没有现代意义上的电子通用计算机",
+      "sources": [{ "title": "Standard account in the history of computing", "url": "", "excerpt": "" }],
+      "risk": "low",
+      "status": "pending",
+      "notes": "措辞保持\"现代计算机\""
+    },
+    {
+      "id": "C04",
+      "text": "Turing was born on 23 June 1912 and was 23–24 years old in 1936.",
+      "textZh": "图灵生于 1912 年 6 月 23 日，1936 年时 23–24 岁",
+      "sources": [{ "title": "Andrew Hodges, Alan Turing: The Enigma", "url": "", "excerpt": "" }],
+      "risk": "low",
+      "status": "pending",
+      "notes": "脚本只写\"二十出头\""
+    },
+    {
+      "id": "C05",
+      "text": "What modern computers can compute does not exceed what a Turing machine can compute.",
+      "textZh": "现代计算机能计算的东西，不超出图灵机的能力范围",
+      "sources": [
+        { "title": "Church–Turing thesis", "url": "", "excerpt": "" },
+        { "title": "Stanford Encyclopedia of Philosophy, \"Turing Machines\"", "url": "", "excerpt": "" }
+      ],
+      "risk": "medium",
+      "status": "pending",
+      "notes": "这是理论共识的通俗说法，不要写成\"手机就是图灵机\""
+    },
+    {
+      "id": "C06",
+      "text": "During the Second World War, from September 1939, Turing worked on codebreaking at Bletchley Park.",
+      "textZh": "二战期间，图灵从 1939 年 9 月起在布莱切利园从事密码破译",
+      "sources": [
+        { "title": "Bletchley Park Trust", "url": "", "excerpt": "" },
+        { "title": "Andrew Hodges, Alan Turing: The Enigma", "url": "", "excerpt": "" }
+      ],
+      "risk": "low",
+      "status": "pending",
+      "notes": ""
+    },
+    {
+      "id": "C07",
+      "text": "Turing led the design of the Bombe used to break Enigma.",
+      "textZh": "图灵主导设计了用于破解恩尼格玛的 Bombe",
+      "sources": [
+        { "title": "Bletchley Park Trust", "url": "", "excerpt": "" },
+        { "title": "Andrew Hodges, Alan Turing: The Enigma", "url": "", "excerpt": "" }
+      ],
+      "risk": "medium",
+      "status": "pending",
+      "notes": "它基于波兰的 bomba，Welchman 后来加入了对角板改进。写\"主导设计\"，不写\"独自发明\""
+    },
+    {
+      "id": "C08",
+      "text": "This work stayed secret for a long time; the Ultra secret only began to be made public from 1974, about 20 years after his death.",
+      "textZh": "这些工作长期保密，1974 年起 Ultra 计划才开始公开，距他去世约 20 年",
+      "sources": [{ "title": "F. W. Winterbotham, The Ultra Secret (1974)", "url": "", "excerpt": "" }],
+      "risk": "medium",
+      "status": "pending",
+      "notes": "写\"开始公开\""
+    },
+    {
+      "id": "C09",
+      "text": "Turing's 1950 paper in Mind opens with: I propose to consider the question, 'Can machines think?'",
+      "textZh": "1950 年论文发表于 Mind 59(236): 433–460，开头句为 \"I propose to consider the question, 'Can machines think?'\"",
+      "sources": [{ "title": "Computing Machinery and Intelligence, Mind 59(236): 433-460", "url": "", "excerpt": "" }],
+      "risk": "high",
+      "status": "pending",
+      "notes": "引语逐字核对"
+    },
+    {
+      "id": "C10",
+      "text": "The paper proposes the 'imitation game': an interrogator communicates only by typing with an unseen human and an unseen machine, then judges which is which.",
+      "textZh": "论文提出\"模仿游戏\"：提问者只通过打字，与看不见的一人一机交流，然后做出判断",
+      "sources": [{ "title": "Computing Machinery and Intelligence, Mind 59(236): 433-460, sections 1–2", "url": "", "excerpt": "" }],
+      "risk": "medium",
+      "status": "pending",
+      "notes": "原文建议在两个房间之间用电传打字机通信"
+    },
+    {
+      "id": "C11",
+      "text": "In its section on learning machines, the paper proposes simulating a child's mind rather than an adult's, and then subjecting it to education.",
+      "textZh": "论文\"学习机器\"一节提出：与其模拟成年人的头脑，不如模拟孩子的头脑，再对它施以教育",
+      "sources": [{ "title": "Computing Machinery and Intelligence, Mind 59(236): 433-460, section 7", "url": "", "excerpt": "" }],
+      "risk": "high",
+      "status": "pending",
+      "notes": "旁白是意译，画面上不出现这句原文"
+    },
+    {
+      "id": "C12",
+      "text": "The paper's last sentence is \"We can only see a short distance ahead, but we can see plenty there that needs to be done.\"",
+      "textZh": "论文最后一句为 \"We can only see a short distance ahead, but we can see plenty there that needs to be done.\"",
+      "sources": [{ "title": "Computing Machinery and Intelligence, Mind 59(236): 433-460", "url": "", "excerpt": "" }],
+      "risk": "high",
+      "status": "pending",
+      "notes": "引语逐字核对"
+    },
+    {
+      "id": "C13",
+      "text": "In 1952 Turing was convicted of 'gross indecency' for homosexual acts and accepted probation conditional on hormone treatment; he did not go to prison.",
+      "textZh": "1952 年，他因同性行为以\"严重猥亵罪\"被定罪，接受了以激素治疗为条件的缓刑，没有入狱",
+      "sources": [
+        { "title": "Andrew Hodges, Alan Turing: The Enigma", "url": "", "excerpt": "" },
+        { "title": "UK government apology statement (2009)", "url": "", "excerpt": "" }
+      ],
+      "risk": "high",
+      "status": "pending",
+      "notes": ""
+    },
+    {
+      "id": "C14",
+      "text": "Turing died at his home in Wilmslow on 7 June 1954, aged 41.",
+      "textZh": "1954 年 6 月 7 日，他在位于威姆斯洛的家中去世，享年 41 岁",
+      "sources": [{ "title": "Andrew Hodges, Alan Turing: The Enigma", "url": "", "excerpt": "" }],
+      "risk": "medium",
+      "status": "pending",
+      "notes": "不写死因（见规格第 6 节）"
+    },
+    {
+      "id": "C15",
+      "text": "The term 'artificial intelligence' first appeared in the Dartmouth research proposal of 31 August 1955.",
+      "textZh": "\"artificial intelligence\" 一词首次出现在 1955 年 8 月 31 日的达特茅斯研究提案中",
+      "sources": [{ "title": "J. McCarthy, M. L. Minsky, N. Rochester, C. E. Shannon, A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence (1955)", "url": "", "excerpt": "" }],
+      "risk": "medium",
+      "status": "pending",
+      "notes": "\"首次出现\"是通行说法；如果核验时发现争议，改为\"正式出现在一份研究提案里\""
+    }
+  ]
+}

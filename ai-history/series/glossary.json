@@ -1,0 +1,15 @@
+{
+  "terms": [
+    { "id": "artificial_intelligence", "terms": { "zh": "人工智能", "en": "artificial intelligence" } },
+    { "id": "turing_machine", "terms": { "zh": "图灵机", "en": "Turing machine" } },
+    { "id": "universal_machine", "terms": { "zh": "通用机", "en": "universal machine" }, "notes": "旁白中不出现术语，只描述行为" },
+    { "id": "tape", "terms": { "zh": "纸带", "en": "tape" } },
+    { "id": "head", "terms": { "zh": "读写头", "en": "head" } },
+    { "id": "rule_table", "terms": { "zh": "规则表", "en": "table of rules" } },
+    { "id": "imitation_game", "terms": { "zh": "模仿游戏", "en": "imitation game" } },
+    { "id": "learning_machine", "terms": { "zh": "学习机器", "en": "learning machine" } },
+    { "id": "child_machine", "terms": { "zh": "儿童机器", "en": "child machine" } },
+    { "id": "codebreaking", "terms": { "zh": "密码破译", "en": "codebreaking" } },
+    { "id": "church_turing_thesis", "terms": { "zh": "丘奇–图灵论题", "en": "Church–Turing thesis" } }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "lang": "en",
+  "platforms": {
+    "youtube_shorts": {
+      "title": "He asked if machines could think. He never lived to see AI. | AI History #1",
+      "description": "AI History, episode 1: Alan Turing.\n\nSources:\n· A. M. Turing, On Computable Numbers, with an Application to the Entscheidungsproblem. Proc. London Math. Soc. s2-42 (1936–37).\n· A. M. Turing, Computing Machinery and Intelligence. Mind 59(236): 433–460 (1950).\n\nThe narration is an AI-generated voice; the narrator is an AI.",
+      "tags": ["AIHistory", "AlanTuring", "TuringMachine", "ArtificialIntelligence", "HistoryOfComputing"],
+      "claims": ["C01", "C09", "C14", "C15"],
+      "aiDisclosure": { "required": true, "setting": "YouTube Studio → Details → Altered or synthetic content", "value": "Yes" }
+    },
+    "tiktok": {
+      "title": "He asked if machines could think. He never lived to see AI. | AI History #1",
+      "description": "AI History, episode 1: Alan Turing.\n\nSources:\n· A. M. Turing, On Computable Numbers, with an Application to the Entscheidungsproblem. Proc. London Math. Soc. s2-42 (1936–37).\n· A. M. Turing, Computing Machinery and Intelligence. Mind 59(236): 433–460 (1950).\n\nThe narration is an AI-generated voice; the narrator is an AI.",
+      "tags": ["AIHistory", "AlanTuring", "TuringMachine", "ArtificialIntelligence"],
+      "claims": ["C01", "C09", "C14", "C15"],
+      "aiDisclosure": { "required": true, "setting": "Post → More options → AI-generated content", "value": "On" }
+    },
+    "x": {
+      "title": "He asked if machines could think. He never lived to see AI. | AI History #1",
+      "description": "AI History, episode 1: Alan Turing.\n\nSources: Turing, On Computable Numbers, Proc. London Math. Soc. s2-42 (1936–37); Turing, Computing Machinery and Intelligence, Mind 59(236): 433–460 (1950).\n\nThe narration is an AI-generated voice; the narrator is an AI.",
+      "tags": ["AIHistory", "AlanTuring"],
+      "claims": ["C01", "C09", "C14", "C15"],
+      "aiDisclosure": { "required": true, "setting": "No upload toggle on X: the disclosure is carried in the post text", "value": "Post text ends with the AI voice statement" }
+    }
+  }
+}

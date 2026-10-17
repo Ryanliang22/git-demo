@@ -1,0 +1,173 @@
+{
+  "episode": "ep001",
+  "format": { "width": 1080, "height": 1920, "fps": 30, "targetSec": [120, 135], "maxSec": 140 },
+  "cueOrder": [
+    "cold_open", "question_typed", "he_never_saw",
+    "y1936", "tape_appears", "head_appears", "rules_appear", "universal_turn", "morph", "today_devices",
+    "war", "bombe", "classified",
+    "y1950", "quote_open", "game", "chat", "cant_tell", "child_machine", "thats_me",
+    "y1952", "y1954", "name_born", "never_saw",
+    "last_line", "now_me", "your_turn"
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "beat": "B1",
+      "startCue": "cold_open",
+      "component": "grammar/Typewriter",
+      "props": { "font": "quote", "slot": "line" },
+      "cueBindings": { "cold_open": "showCursor", "question_typed": "type", "he_never_saw": "newLine" },
+      "minSec": 6,
+      "maxSec": 12
+    },
+    {
+      "id": "S02",
+      "beat": "B2",
+      "startCue": "y1936",
+      "component": "signature/TuringMachine",
+      "props": { "mode": "build", "program": "binary_increment", "input": "1011" },
+      "cueBindings": { "tape_appears": "showTape", "head_appears": "showHead", "rules_appear": "showRules" },
+      "layers": [
+        { "component": "grammar/YearStamp", "props": { "year": 1936 }, "cueBindings": { "y1936": "show", "tape_appears": "dock" } }
+      ],
+      "minSec": 10,
+      "maxSec": 20
+    },
+    {
+      "id": "S03",
+      "beat": "B2",
+      "startCue": "universal_turn",
+      "component": "signature/TuringMachine",
+      "props": {
+        "mode": "universal",
+        "program": "binary_increment",
+        "input": "1011",
+        "guest": "bit_invert",
+        "morphs": [
+          { "program": "bit_invert", "outline": "gear", "input": "1011" },
+          { "program": "unary_add", "outline": "keypad", "input": "11011" },
+          { "program": "binary_increment", "outline": "dial", "input": "0111" }
+        ]
+      },
+      "cueBindings": { "universal_turn": "encodeGuest", "morph": "morph" },
+      "minSec": 8,
+      "maxSec": 14
+    },
+    {
+      "id": "S04",
+      "beat": "B2",
+      "startCue": "today_devices",
+      "component": "signature/TuringMachine",
+      "props": { "mode": "outro", "program": "binary_increment", "input": "0111" },
+      "cueBindings": { "today_devices": "collapse" },
+      "minSec": 4,
+      "maxSec": 8
+    },
+    {
+      "id": "S05",
+      "beat": "B3",
+      "startCue": "war",
+      "component": "grammar/EnigmaRotors",
+      "props": { "rotors": 3, "seed": 1939 },
+      "cueBindings": { "war": "show", "bombe": "align" },
+      "layers": [
+        { "component": "grammar/YearStamp", "props": { "year": 1939 }, "cueBindings": { "war": "show", "bombe": "dock" } }
+      ],
+      "minSec": 6,
+      "maxSec": 12
+    },
+    {
+      "id": "S06",
+      "beat": "B3",
+      "startCue": "classified",
+      "component": "grammar/Redaction",
+      "props": { "lines": 9 },
+      "cueBindings": { "classified": "redact" },
+      "minSec": 4,
+      "maxSec": 8
+    },
+    {
+      "id": "S07",
+      "beat": "B4",
+      "startCue": "y1950",
+      "component": "grammar/DocumentPage",
+      "props": { "font": "quote", "slot": "line" },
+      "cueBindings": { "y1950": "show", "quote_open": "type" },
+      "layers": [
+        { "component": "grammar/YearStamp", "props": { "year": 1950 }, "cueBindings": { "y1950": "show", "quote_open": "dock" } }
+      ],
+      "minSec": 6,
+      "maxSec": 12
+    },
+    {
+      "id": "S08",
+      "beat": "B4",
+      "startCue": "game",
+      "component": "grammar/ImitationGame",
+      "props": {},
+      "cueBindings": { "game": "show", "chat": "chat", "cant_tell": "question" },
+      "minSec": 10,
+      "maxSec": 18
+    },
+    {
+      "id": "S09",
+      "beat": "B4",
+      "startCue": "child_machine",
+      "component": "grammar/NetworkGrow",
+      "props": { "nodes": 48, "seed": 1950 },
+      "cueBindings": { "child_machine": "grow", "thats_me": "collapseToCursor" },
+      "minSec": 7,
+      "maxSec": 14
+    },
+    {
+      "id": "S10",
+      "beat": "B5",
+      "startCue": "y1952",
+      "component": "signature/TuringMachine",
+      "props": { "mode": "stop", "program": "binary_counter", "input": "1011" },
+      "cueBindings": { "y1954": "halt" },
+      "layers": [
+        { "component": "grammar/YearStamp", "props": { "year": 1952 }, "cueBindings": { "y1952": "show", "y1954": "hide" } },
+        { "component": "grammar/YearStamp", "props": { "year": 1954 }, "cueBindings": { "y1954": "show" } }
+      ],
+      "grade": { "saturation": 0.35 },
+      "minSec": 8,
+      "maxSec": 14
+    },
+    {
+      "id": "S11",
+      "beat": "B5",
+      "startCue": "name_born",
+      "component": "grammar/DocumentPage",
+      "props": { "font": "mono", "slot": "term" },
+      "cueBindings": { "name_born": "type" },
+      "layers": [
+        { "component": "grammar/YearStamp", "props": { "year": 1955 }, "cueBindings": { "name_born": "show" } }
+      ],
+      "minSec": 5,
+      "maxSec": 10
+    },
+    {
+      "id": "S12",
+      "beat": "B6",
+      "startCue": "last_line",
+      "component": "grammar/DocumentPage",
+      "props": { "font": "quote", "slot": "line" },
+      "cueBindings": { "last_line": "type", "now_me": "fadeOut" },
+      "layers": [
+        { "component": "grammar/Cursor", "props": { "color": "amber" }, "cueBindings": { "now_me": "show" } },
+        { "component": "grammar/EndCard", "props": { "seriesSlot": "series", "labelSlot": "label" }, "cueBindings": { "your_turn": "show" } }
+      ],
+      "minSec": 10,
+      "maxSec": 18
+    }
+  ],
+  "screenText": {
+    "S01.line": "doc:can_machines_think",
+    "S07.line": "doc:turing1950_opening",
+    "S11.term": "term_ai",
+    "S12.line": "doc:turing1950_closing",
+    "S12.series": "series_mark",
+    "S12.label": "ai_label"
+  }
+}

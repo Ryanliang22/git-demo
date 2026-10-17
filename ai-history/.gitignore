@@ -1,0 +1,4 @@
+node_modules/
+episodes/*/build/
+.remotion-cache/
+*.log
