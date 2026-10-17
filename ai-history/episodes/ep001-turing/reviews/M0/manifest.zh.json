@@ -1,0 +1,125 @@
+{
+  "episode": "ep001",
+  "lang": "zh",
+  "milestone": "M0",
+  "createdAt": "2026-10-17T06:28:17.930Z",
+  "git": {
+    "commit": "594e7a6fb67c9b60c61d27e6fae13d0cc0196282",
+    "dirty": true
+  },
+  "bibleVersion": "0.1.0",
+  "components": {
+    "grammar/AILabel": "0.1.0",
+    "grammar/Caption": "0.1.0",
+    "grammar/Typewriter": "0.1.0",
+    "grammar/YearStamp": "0.1.0",
+    "signature/TuringMachine": "0.1.0"
+  },
+  "tts": {
+    "engine": "mock",
+    "engineVersion": "1",
+    "voice": "mock-narrator",
+    "characters": 186,
+    "license": "n/a (mock engine, silent output)"
+  },
+  "llmTokens": {
+    "input": null,
+    "output": null,
+    "note": "pipeline makes no LLM calls; review/verification subagent usage is not metered here"
+  },
+  "renderMs": 61447,
+  "humanMinutes": null,
+  "claims": [
+    {
+      "id": "C01",
+      "status": "pending",
+      "waived": false
+    },
+    {
+      "id": "C02",
+      "status": "pending",
+      "waived": false
+    },
+    {
+      "id": "C03",
+      "status": "pending",
+      "waived": false
+    },
+    {
+      "id": "C04",
+      "status": "pending",
+      "waived": false
+    },
+    {
+      "id": "C05",
+      "status": "pending",
+      "waived": false
+    },
+    {
+      "id": "C09",
+      "status": "pending",
+      "waived": false
+    },
+    {
+      "id": "C14",
+      "status": "pending",
+      "waived": false
+    },
+    {
+      "id": "C15",
+      "status": "pending",
+      "waived": false
+    }
+  ],
+  "licenses": [
+    {
+      "kind": "font",
+      "name": "Noto Sans SC",
+      "license": "OFL-1.1",
+      "path": "node_modules/.pnpm/@fontsource+noto-sans-sc@5.3.1/node_modules/@fontsource/noto-sans-sc/LICENSE"
+    },
+    {
+      "kind": "font",
+      "name": "Inter",
+      "license": "OFL-1.1",
+      "path": "node_modules/.pnpm/@fontsource+inter@5.3.0/node_modules/@fontsource/inter/LICENSE"
+    },
+    {
+      "kind": "font",
+      "name": "Courier Prime",
+      "license": "OFL-1.1",
+      "path": "node_modules/.pnpm/@fontsource+courier-prime@5.3.0/node_modules/@fontsource/courier-prime/LICENSE"
+    },
+    {
+      "kind": "font",
+      "name": "JetBrains Mono",
+      "license": "OFL-1.1",
+      "path": "node_modules/.pnpm/@fontsource+jetbrains-mono@5.3.0/node_modules/@fontsource/jetbrains-mono/LICENSE"
+    },
+    {
+      "kind": "tts-voice",
+      "name": "mock/mock-narrator",
+      "license": "n/a (mock engine, silent output)",
+      "path": ""
+    }
+  ],
+  "qc": {
+    "passed": true,
+    "report": "build/qc.zh.json"
+  },
+  "outputs": {
+    "video": "build/zh/export.S01-S04/ep001.zh.S01-S04.mp4",
+    "srt": "build/zh/export.S01-S04/ep001.zh.S01-S04.srt",
+    "cover": "build/zh/export.S01-S04/ep001.zh.S01-S04.cover.png",
+    "meta": "build/zh/export.S01-S04/meta.zh.json",
+    "douyin": "build/zh/export.S01-S04/douyin.txt",
+    "bilibili": "build/zh/export.S01-S04/bilibili.txt"
+  },
+  "aiLabel": {
+    "explicit": [
+      "on-screen strings.ai_label \"AI 合成配音\" 0–3s and on the end card",
+      "first narration line"
+    ],
+    "implicit": "pending: GB 45438-2025 Appendix E field names not yet verified against the standard text (spec §13); nothing written"
+  }
+}

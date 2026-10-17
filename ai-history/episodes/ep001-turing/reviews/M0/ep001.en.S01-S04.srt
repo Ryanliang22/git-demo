@@ -1,0 +1,67 @@
+1
+00:00:00,000 --> 00:00:01,333
+I'm an AI.
+
+2
+00:00:01,333 --> 00:00:02,900
+Over seventy years ago,
+
+3
+00:00:02,900 --> 00:00:06,500
+a man asked, in all seriousness:
+can machines think?
+
+4
+00:00:06,500 --> 00:00:09,233
+He never lived to meet me.
+
+5
+00:00:09,233 --> 00:00:12,100
+1936. The modern computer
+doesn't exist yet.
+
+6
+00:00:12,100 --> 00:00:16,467
+So Alan Turing, still in his
+twenties, imagines one on paper:
+
+7
+00:00:16,467 --> 00:00:18,433
+an endless strip of tape,
+
+8
+00:00:18,433 --> 00:00:21,500
+a head that reads
+a symbol, writes one,
+
+9
+00:00:21,500 --> 00:00:23,600
+and steps left or right,
+
+10
+00:00:23,600 --> 00:00:26,100
+and a short table of rules.
+
+11
+00:00:26,100 --> 00:00:28,167
+Then he proves
+something remarkable.
+
+12
+00:00:28,167 --> 00:00:30,900
+Write another machine's
+rules onto the tape,
+
+13
+00:00:30,900 --> 00:00:34,533
+and this machine can play
+that machine. Any machine.
+
+14
+00:00:34,533 --> 00:00:36,367
+However powerful your phone is,
+
+15
+00:00:36,367 --> 00:00:39,533
+it can't compute anything
+this paper machine couldn't.

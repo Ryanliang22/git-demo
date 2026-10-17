@@ -1,0 +1,107 @@
+{
+  "lang": "zh",
+  "milestone": "M0",
+  "video": "build/zh/ep001.zh.S01-S04.mp4",
+  "checks": [
+    {
+      "id": "duration",
+      "status": "skipped",
+      "detail": "partial build S01,S02,S03,S04: 40.17s (shot limits sum 28–54s); episode target applies to full builds"
+    },
+    {
+      "id": "loudness",
+      "status": "skipped",
+      "detail": "mock TTS writes silence (measured I=-70 LUFS); gate applies once a real engine is configured"
+    },
+    {
+      "id": "cue_consistency",
+      "status": "pass",
+      "detail": "every script matches skeleton.cueOrder (27 cues)"
+    },
+    {
+      "id": "claims",
+      "status": "pass",
+      "detail": "10 lines checked, 2 narrative [[N]]; 15 claims cited, 15 not verified — allowed in M0 with DRAFT watermark",
+      "data": {
+        "notVerified": [
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "C06",
+          "C07",
+          "C08",
+          "C09",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15"
+        ]
+      }
+    },
+    {
+      "id": "caption_length",
+      "status": "pass",
+      "detail": "10 blocks, ≤ 16 chars/line, ≤ 2 lines"
+    },
+    {
+      "id": "text_overflow",
+      "status": "pass",
+      "detail": "18 text boxes fit at or above their minimum size"
+    },
+    {
+      "id": "text_in_safe_area",
+      "status": "manual",
+      "detail": "pending subagent review of review/contact-sheet.S01-S04.png (automatic check is proposed for M1 in DECISIONS.md)"
+    },
+    {
+      "id": "black_freeze",
+      "status": "pass",
+      "detail": "0 black interval(s); 0 freeze(s), 0 outside whitelisted shots",
+      "data": {
+        "blacks": [],
+        "freezes": []
+      }
+    },
+    {
+      "id": "av_sync",
+      "status": "pass",
+      "detail": "max shot offset 0 frame(s); video 1205/1205 frames; audio 40.166s",
+      "data": [
+        {
+          "shot": "S01",
+          "cueFrame": 0,
+          "outputFrame": 0,
+          "diff": 0
+        },
+        {
+          "shot": "S02",
+          "cueFrame": 267,
+          "outputFrame": 267,
+          "diff": 0
+        },
+        {
+          "shot": "S03",
+          "cueFrame": 763,
+          "outputFrame": 763,
+          "diff": 0
+        },
+        {
+          "shot": "S04",
+          "cueFrame": 1011,
+          "outputFrame": 1011,
+          "diff": 0
+        }
+      ]
+    },
+    {
+      "id": "ai_label",
+      "status": "pass",
+      "detail": "explicit: on-screen label frames 0–90, first line \"我是一个AI。\"; implicit MP4 metadata is written and verified by export"
+    }
+  ],
+  "passed": true
+}
