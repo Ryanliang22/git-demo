@@ -4,7 +4,7 @@ import type { TypewriterProps } from "@ai-history/schemas";
 import type { z } from "zod";
 import type { ComponentProps, ShotContext } from "../lib/context";
 import { roleFamily } from "../lib/fonts";
-import { appear, blinkOn, lerp, move, progress } from "../lib/motion";
+import { appear, blinkOn, lerp, progress } from "../lib/motion";
 import { fitBox, type TextBox } from "../lib/text";
 import { CursorGlyph } from "./Cursor";
 
@@ -48,7 +48,7 @@ export const Typewriter: React.FC<ComponentProps<Props>> = ({ props, ctx }) => {
   const isTyping = typeFrom !== undefined && frame >= events.type! && typing < chars.length;
   const typedW = typed ? measureText({ text: typed, fontFamily: box.fontFamily, fontWeight: box.fontWeight, fontSize }).width : 0;
 
-  const nl = move(frame, events.newLine, bible);
+  const nl = appear(frame, events.newLine, bible);
   const curH = fontSize * 1.05;
   const curW = fontSize * 0.55;
   const curX = lerp(lerp(layout.cx - curW / 2, x0 + fontSize * 0.08, toStart) + typedW, x0, nl);

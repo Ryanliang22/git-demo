@@ -59,7 +59,7 @@ const Build: React.FC<{ props: Props; ctx: ShotContext; g: Geometry; frame: numb
     <>
       <Tape bible={bible} layout={layout} g={g} viewHead={viewHead} content={content} reveal={progress(frame, events.showTape, bible.motion.moveFrames)} />
       <RuleCard bible={bible} g={g} program={program} active={m.active} opacity={card} />
-      <Head bible={bible} g={g} state={stateGlyph(program, m.stateAfter ?? m.config.state)} drop={move(frame, events.showHead, bible)} stem={card} />
+      <Head bible={bible} g={g} state={stateGlyph(program, m.stateAfter ?? m.config.state)} drop={appear(frame, events.showHead, bible)} stem={card} />
     </>
   );
 };
@@ -159,7 +159,7 @@ const Universal: React.FC<{ props: Props; ctx: ShotContext; g: Geometry; frame: 
 
   const baseH = cardHeight(g, base.rules.length);
   const cardCy = g.cardBottom - baseH / 2;
-  const guestScale = 0.62;
+  const guestScale = 0.75;
   const guestH = cardHeight(g, guest.rules.length) * guestScale;
   const guestCy = g.tapeY + g.cell * 0.62 + g.cell * 0.45 + guestH / 2;
 
@@ -400,7 +400,7 @@ const PhoneTape: React.FC<{ bible: Bible; layout: ShotContext["layout"]; g: Geom
   const program = getProgram("binary_counter");
   const input = "1";
   const steps = run(program, input, 400);
-  const small: Geometry = { ...g, cell: g.cell * 0.6, headX: cx, tapeY: cy };
+  const small: Geometry = { ...g, cell: g.cell * 0.8, headX: cx, tapeY: cy };
   const m = machineAt(steps, initialConfig(program, input), (frame - from) / (bible.turing.stepFrames / 3));
   const inset = `inset(${cy - h / 2}px ${layout.width - (cx + w / 2)}px ${layout.height - (cy + h / 2)}px ${cx - w / 2}px round ${r}px)`;
   return (

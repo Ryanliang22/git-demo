@@ -120,9 +120,9 @@ export const Tape: React.FC<{
   // the tape runs off both edges; outside the safe area it fades, so nothing essential sits under platform UI
   const { x: sx, w: sw } = layout.safe;
   // a mask only reads alpha: the bible color is incidental
-  const edge = withAlpha(bible.colors.bg, 0.2);
+  const edge = withAlpha(bible.colors.bg, 0.15);
   const solid = withAlpha(bible.colors.bg, 1);
-  const fade = `linear-gradient(to right, ${edge} 0px, ${solid} ${sx + g.cell * 0.5}px, ${solid} ${sx + sw - g.cell * 0.5}px, ${edge} ${layout.width}px)`;
+  const fade = `linear-gradient(to right, ${edge} 0px, ${solid} ${sx + g.cell}px, ${solid} ${sx + sw - g.cell}px, ${edge} ${layout.width}px)`;
   return (
     <div style={{ position: "absolute", inset: 0, opacity, clipPath: `inset(0 ${(1 - reveal) * 100}% 0 0)`, WebkitMaskImage: fade, maskImage: fade }}>
       <div style={{ position: "absolute", left: 0, right: 0, top: g.tapeY - g.cell / 2, height: g.cell, background: withAlpha(bible.colors.amber, 0.07) }} />

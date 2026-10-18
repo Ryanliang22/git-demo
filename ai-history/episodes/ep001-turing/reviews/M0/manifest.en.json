@@ -2,9 +2,9 @@
   "episode": "ep001",
   "lang": "en",
   "milestone": "M0",
-  "createdAt": "2026-10-17T06:28:16.699Z",
+  "createdAt": "2026-10-18T00:21:42.596Z",
   "git": {
-    "commit": "594e7a6fb67c9b60c61d27e6fae13d0cc0196282",
+    "commit": "82aee09bba6904b2d40b62f8795fce43205e372b",
     "dirty": true
   },
   "bibleVersion": "0.1.0",
@@ -27,7 +27,7 @@
     "output": null,
     "note": "pipeline makes no LLM calls; review/verification subagent usage is not metered here"
   },
-  "renderMs": 60952,
+  "renderMs": 60250,
   "humanMinutes": null,
   "claims": [
     {
